@@ -1,9 +1,8 @@
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
+
 body{
 	font-family: Verdana, "Times New Roman";
-	background:black;
-	color:white;
+	background: #000000;
+	color: #FFFFFF;
 	margin-top: 25px;
 	margin-right: 25px;
 	margin-left: 25px;
@@ -34,8 +33,8 @@ img{
 }
 
 div{
-	min-height:100px;
-	padding:20px;
+	min-height: 100px;
+	padding: 20px;
 	border: 3px solid #FFFFFF;
 }
 
@@ -51,27 +50,27 @@ div{
 	border-width: 0px 0px 3px 10px;
 }
 .blue{
-	background: blue;
+	background: #0000ff;
 	text-align: left;
 	margin-right: 50px;
 	border-width: 0px 10px 3px 0px;
 }
 .yellow{
-	background: yellow;
+	background: #ffff00;
 	text-align: right;
 	margin-left: 50px;
 	border-width: 0px 0px 3px 10px;
 	color: #000;
 }
-.yellow h2{
-	text-shadow: 2px 4px #c7e2c7;
-	color: #000000;
-}
 .green{
-	background-color: #00EB00;
+	background-color: #008500;
 	text-align: left;
 	margin-right: 50px;
 	border-width: 0px 10px 3px 0px;
+}
+.yellow h2{
+	text-shadow: 2px 4px #c7e2c7;
+	color: #000000;
 }
 span{
 	text-decoration: underline;
@@ -80,11 +79,14 @@ span{
 }
 
 footer{
-	background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+	background: linear-gradient(90deg, #000000, #0000ff, #0066ff, #000000);
 }
 
 footer p{
 	text-align: center;
-	padding: 10px 10px 10px 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
 	font-size: 20px;
 }
